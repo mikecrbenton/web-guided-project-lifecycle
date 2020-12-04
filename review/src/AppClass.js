@@ -20,6 +20,7 @@ class AppClass extends React.Component {
     console.log("APPCLASS: Component Mounted");
   }
 
+  // 
   componentDidUpdate(prevProps, prevState) {
     console.log("APPCLASS: Component Updated");
     console.log("PROPS---------------");
